@@ -43,15 +43,6 @@
 </div>
 <!--#fifth-->
 
-<!-- footer --> 
-<footer class="footer"> 
-	<div class="row">
-	<div class="span2"><a class="btn btn-inverse" href=""><i class="icon-bookmark"></i>Bookmark</a> </div> <!-- sample button -->
-    <div class="span3"><p> © Portfolio Igniter 2012</p></div>
-    </div>
-</footer>
-<!-- /footer --> 
-
 <!-- Le JS --> 
 <script>
 $(document).ready(function(){
@@ -69,12 +60,14 @@ $(document).ready(function(){
 	// adjuster - y position to start from.
 	// inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.
 	// outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport.
-  $('#intro').parallax("50%", 0, 0.1, true);
+  $('#intro').parallax("50%", 0, 0.4, true);
 	$('#second').parallax("50%", 2650, 0.55, true);
 	$('.bg').parallax("5%", 3000, 0.8, true);
 	$('.bg2').parallax("30%", 3500, 0.8, true);
-	$('#third').parallax("50%", 3100, 0.1, true);
-  $('#fourth').parallax("50%", 3000, 0.1, true);
+	$('#third').parallax("50%", 3750, 0.5, true);
+  $('#fourth').parallax("50%", 3000, 0.8, true);
+  $('#fifth').parallax("50%", 6500, 0.6, true);
+
 })
 	$('#navbar').scrollspy();
 </script>
