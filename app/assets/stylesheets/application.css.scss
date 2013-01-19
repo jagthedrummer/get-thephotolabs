@@ -19,11 +19,11 @@
 @import "render";
 
 .float-box{
-  @include border-radius(5px);
+  @include border-radius(10px);
   @include translucent-background(black,0.5);
   @include transition(background 0.3s ease);
   font-size:0.7em;
-  padding:10px 20px;
+  padding:10px 20px 15px;
 
   .quiet{
     @include opacity(50);
