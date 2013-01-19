@@ -64,5 +64,7 @@ module GetThephotolabs
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.assets.precompile += %w( 'twitter/bootstrap.css' 'twitter/bootstrap/responsive.css' 'render.css' )
   end
 end
