@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ 
+ * require_tree .
+ * require render
+ *= require_self
+ */
+
+@import "twitter/bootstrap";
+@import "twitter/bootstrap/responsive";
+@import "render";
+
+.float-box{
+  @include border-radius(5px);
+  @include translucent-background(black,0.5);
+  @include transition(background 0.3s ease);
+  font-size:0.7em;
+  padding:10px 20px;
+
+  .quiet{
+    @include opacity(50);
+    @include transition(opacity 0.6s ease);
+  }
+
+  .additional{
+    @include transition(height 0.3s ease);
+    @include transition-delay(0.2s);
+    height:0px;
+    overflow:hidden;
+    p{
+      @include transition(opacity 0.3s ease);
+      @include opacity(0);
+      @include transition-delay(0s);
+    }
+  }
+
+  &:hover{
+    @include translucent-background(black,0.9);
+    .quiet{
+      @include opacity(90);
+    }
+  }
+
+  .more{ display:auto; }
+  .more.less{ display:none; }
+
+  &.expanded{
+    .additional{
+      height:330px;
+      @include transition-delay(0s);
+      p{
+        @include opacity(100);
+        @include transition-delay(0.2s);
+      }
+    }
+    
+    .more{ display:none; }
+    .more.less{ display:inline-block; }
+  }
+}
+
+
+

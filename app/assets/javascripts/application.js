@@ -19,3 +19,4 @@
 //= require jquery.scrollTo-1.4.2-min
 //= require bootstrap-collapse
 //= require bootstrap-scrollspy
+//= require static_pages
