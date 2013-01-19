@@ -89,13 +89,13 @@ span.rnd {
 
 /* pages */
 #home {
-	background:url(/img/gug.jpg) 50% -75px no-repeat fixed;
+	background:image-url("gug.jpg") 50% -75px no-repeat fixed;
 	color: white;
 	height: 1200px;
 	padding: 160px 0 0 0;
 }
 #second {
-	background: url(/img/nyc.jpg) 50% 0 no-repeat fixed;
+	background: image-url("nyc.jpg") 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -112,13 +112,13 @@ span.rnd {
 #fourth h2 {font-weight:300;}
 
 #third {
-	background: url(/img/sunset.jpg) 50% 0 no-repeat fixed;
+	background: image-url("sunset.jpg") 50% 0 no-repeat fixed;
 	color: white;
 	height: 1200px;
 	padding: 20px 0 0 0;
 }
 #fifth {
-  background: url(/assets/seattle_sun.jpg) 50% 0 no-repeat fixed;	
+  background: image-url("seattle_sun.jpg") 50% 0 no-repeat fixed;	
 	height: 1100px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;

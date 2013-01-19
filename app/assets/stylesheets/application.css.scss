@@ -18,6 +18,10 @@
 @import "twitter/bootstrap/responsive";
 @import "render";
 
+body{
+  background:black;
+}
+
 .float-box{
   @include border-radius(10px);
   @include translucent-background(black,0.5);
