@@ -112,18 +112,47 @@ span.rnd {
 #fourth h2 {font-weight:300;}
 
 #third {
-	background: image-url("sunset.jpg") 50% 0 no-repeat fixed;
+	background: image-url("nyc/upper_west.jpg") 50% 0 no-repeat fixed;
 	color: white;
 	height: 1200px;
 	padding: 20px 0 0 0;
 }
 #fifth {
-  background: image-url("seattle_sun.jpg") 50% 0 no-repeat fixed;	
+  background: image-url("nyc/times_square.jpg") 50% 0 no-repeat fixed;	
 	height: 1100px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
 }
 
+body.seattle{
+  #home{
+    background:image-url("seattle/boat.jpg") 50% -175px no-repeat fixed;
+  }
+  #second{
+    background-image: image-url('seattle/sunset.jpg')
+  }
+  #third{
+    background-image: image-url('seattle/night_wheel.jpg')
+  }
+  #fifth{
+    background-image: image-url('seattle/chihully.jpg')
+  }
+}
+
+body.needle{
+  #home{
+    background:image-url("seattle/needle1.jpg") 50% -175px no-repeat fixed;
+  }
+  #second{
+    background-image: image-url('seattle/needle4.jpg')
+  }
+  #third{
+    background-image: image-url('seattle/needle4.jpg')
+  }
+  #fifth{
+    background-image: image-url('seattle/needle5.jpg')
+  }
+}
 
 body.norman{
   #home{
