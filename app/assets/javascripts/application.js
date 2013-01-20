@@ -17,6 +17,7 @@
 //= require jquery.localscroll-1.2.7-min
 //= require jquery.parallax-1.1
 //= require jquery.scrollTo-1.4.2-min
-//= require bootstrap-collapse
-//= require bootstrap-scrollspy
+// require bootstrap-collapse
+// require bootstrap-scrollspy
+//= require twitter/bootstrap
 //= require static_pages

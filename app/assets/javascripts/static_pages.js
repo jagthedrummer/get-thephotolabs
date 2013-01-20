@@ -6,4 +6,10 @@ $(document).ready(function() {
     $($(this).parents('.float-box')).toggleClass('expanded');
     return false;
   });
+
+  $('a.gallery').click(function(){
+    $('body').attr('class',$(this).attr('value'));
+    return false;
+  })
+
 });
